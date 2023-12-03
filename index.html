@@ -466,13 +466,18 @@
         <div class="subscribe-form-footer">
           <p class="subscribe">Subscribe</p>
           <form class="from">
-            <label for="form-label">
-              <input class="form-imput" type="email" placeholder="E-mail" />
+            <label class="form-label-footer" for="form-label">
+              <input
+                class="form-imput"
+                type="email"
+                name="emeil"
+                placeholder="E-mail"
+              />
             </label>
             <button class="form-button" type="submit">
               Subscribe
               <svg class="form-icon-frame" width="24" height="24">
-                <use href="/images/icons.svg#icon-Frame"></use>
+                <use href="./images/icons.svg#icon-Frame"></use>
               </svg>
             </button>
           </form>
@@ -481,7 +486,7 @@
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button class="modal-close-btn" type="button">
           <svg
             class="modal-close-btn-icon"
             width="8"
