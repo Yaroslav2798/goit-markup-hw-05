@@ -463,6 +463,20 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="subscribe">Subscribe</p>
+          <form class="from">
+            <label for="form-label">
+              <input class="form-imput" type="email" placeholder="email" />
+            </label>
+            <button class="form-button" type="submit">
+              Subscribe
+              <svg class="form-icon-frame" width="24" height="24">
+                <use href="/images/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-open">
@@ -561,21 +575,27 @@
           </div>
           <div class="review-form-checbox-wrapper">
             <input
-              class="review-form-checkbox"
+              class="review-form-checkbox visually-hidden"
               id="user-privacy-policy"
               name="user-privacy-policy"
               type="checkbox"
               value="true"
               required
             />
-            <label class="review-form-checkbox-label" for="user-privacy-policy"></label>
+            <label class="review-form-checkbox-label" for="user-privacy-policy">
               <span class="review-form-own-checkbox">
-                <svg class="review-form-own-checkbox-icon" width="10" height="8" aria-label="checkmark icon">
-                  <use href="./images/icons.svg#icon-Vector"> </use>
-          </svg>
+                <svg
+                  class="review-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                  aria-label="checkmark icon"
+                >
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a></label>
+              <a class="accent-color" href="">Privacy Policy</a></label
+            >
           </div>
           <button class="review-forv-submit-btn" type="submit">Send</button>
         </form>
