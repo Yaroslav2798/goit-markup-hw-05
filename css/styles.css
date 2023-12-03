@@ -696,4 +696,11 @@ img {
 
 .review-form-own-checkbox-icon {
   fill: #fff;
+  opacity: 0;
+}
+
+.review-form-checkbox:checked
+  + .review-form-checkbox-label
+  .review-form-own-checkbox {
+  opacity: 1;
 }
